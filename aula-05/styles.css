@@ -1,0 +1,56 @@
+/* Seletor => configuração que indica o estilo do elemento */
+
+/* Seleciona todos os h1 da página */
+h1 {
+    color: seagreen;
+    font-size: 100px;
+}
+
+p {
+    color: blue;
+    font-style: italic;
+}
+
+/* Aplica o estilo a diferentes elementos */
+em, strong {
+    color: red;
+}
+
+/* Aplica o estilo na imagem dentro de paragrafo */
+p img {
+    border-radius: 32px;
+}
+
+/* Aplica o estilo no <p> dentro da section */
+section p {
+    color: green;
+    font-style: normal; /* Podemos sobrescrever o efeito */
+}
+
+/*
+Ordem de prioridade:
+1 - inline (style)
+2 - link ou tag style (quem vir por ultimo)
+*/
+
+/*
+#id - identificação - único
+classe - repetir para vários elementos
+*/
+
+#titulo-1 {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: yellowgreen;
+}
+
+#titulo-2 {
+    font-size: 28px;
+    background-color: orange;
+}
+
+.botao {
+    background-color: blue;
+    width: 120px;
+    color: white;
+}
