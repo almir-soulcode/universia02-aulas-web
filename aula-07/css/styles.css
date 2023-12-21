@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+h3 {
+    background-color: orange;
+}
+
+/*
+margin => separa os elementos
+padding => espaçamento interno
+border => borda
+*/
+
+.box1 {
+    background-color: coral;
+    margin: 20px;
+    padding: 16px;
+}
+
+.box2 {
+    background-color: green;
+    margin: 0 10px 25px 0; /*T R B L*/
+    padding: 10px 20px 10px 20px; /*T R B L*/
+}
+
+.box3 {
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    border: 5px double pink;
+    border-radius: 20px;
+}
+
+.box4 {
+    background-color: seagreen;
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid red;
+}
+
+/* Seletor universal */
+* {
+    box-sizing: border-box;
+    /* configura a div para obedecer a largura e altura */
+}
+
+body {
+    margin: 0;
+    background-color: grey;
+    font-family: 'Lato';
+}
+
+/* CSS Reset => reseta configurações de estilização */
+/* elemento inline */
+.link-custom {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #001524;
+    width: 120px;
+    padding: 12px 8px 12px 8px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.link-custom:hover {
+    background-color: #15616D;
+}
